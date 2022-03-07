@@ -17,15 +17,15 @@ await build({
   outDir: "./npm",
   shims: {
     // see JS docs for overview and more options
-    deno: "dev",
+    deno: true,
   },
   package: {
     // package.json properties
     name,
     version,
-    author: "Alisue <lambdalisue@gmail.com>",
+    author: "Fixpoint, Inc.",
     license: "MIT",
-    repository: "https://github.com/lambdalisue/deno-sshutil",
+    repository: "https://github.com/fixpoint/deno-sshutil",
   },
 });
 
